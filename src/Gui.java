@@ -30,7 +30,6 @@ public class Gui implements ActionListener {
         // Create API interface object
         api = new Api();
 
-
         // Create GUI components
         createButtonPanel();
         createDatePicker();
@@ -86,7 +85,7 @@ public class Gui implements ActionListener {
         frame.setLocation(200, 200);
         frame.setVisible(true);
         frame.setSize(860, 750);
-        frame.setResizable(true);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
@@ -266,7 +265,7 @@ public class Gui implements ActionListener {
         JButton selectPushButton = new JButton("Seleccionar");
         JButton downloadPushButton = new JButton("Descargar");
 
-        // Create date field with today's date
+        // Create date fields with today's date
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat dateFormat = new SimpleDateFormat("YYYY-MM-dd");
         fromDate = dateFormat.format(calendar.getTime());
@@ -282,7 +281,7 @@ public class Gui implements ActionListener {
         JLabel fromLabel = new JLabel("Desde: ");
         JLabel toLabel = new JLabel("Hasta: ");
 
-        // Add date picker and field to date picker panel
+        // Add date pickers and fields to date picker panel
         datePickerPanel.add(fromLabel);
         datePickerPanel.add(fromTextField);
         datePickerPanel.add(toLabel);
@@ -302,14 +301,14 @@ public class Gui implements ActionListener {
         selectPushButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent selectPushButton) {
                 // Clear all time series
-                api.demSeries.clear();
-                api.dieSeries.clear();
-                api.gasSeries.clear();
-                api.eolSeries.clear();
-                api.ccSeries.clear();
-                api.vapSeries.clear();
-                api.fotSeries.clear();
-                api.hidSeries.clear();
+                Api.demSeries.clear();
+                Api.dieSeries.clear();
+                Api.gasSeries.clear();
+                Api.eolSeries.clear();
+                Api.ccSeries.clear();
+                Api.vapSeries.clear();
+                Api.fotSeries.clear();
+                Api.hidSeries.clear();
 
                 try {
                     // Get date picker field text
@@ -333,7 +332,7 @@ public class Gui implements ActionListener {
             }
         });
 
-        // Define select button behavior
+        // Define download button behavior
         downloadPushButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent downloadPushButton) {
                 try {
@@ -405,7 +404,7 @@ public class Gui implements ActionListener {
             // Create graphic
             JFreeChart graphic = ChartFactory.createTimeSeriesChart(
                     title,
-                    "Hora",             // x-axis
+                    "Fecha y hora",     // x-axis
                     "Demanda (MW)",     // y-axis
                     data,               // time series
                     true,               // show legend
@@ -413,8 +412,7 @@ public class Gui implements ActionListener {
                     false               // generate URLs
             );
 
-            // Change colors
-//            graphic.getPlot().setBackgroundPaint(Color.WHITE);
+            // Change color
             graphic.setBackgroundPaint(Color.WHITE);
 
             // Add chart to chart panel

@@ -11,8 +11,8 @@ import java.text.SimpleDateFormat;
 
 public class Api {
     protected final static String path = "G:\\Mi unidad\\Master en Ingenieria Industrial\\" +
-                "Tercer Cuatrimestre\\Informática Industrial\\Practicas\\" +
-                "REE\\data\\data.json";
+            "Tercer Cuatrimestre\\Informática Industrial\\Practicas\\" +
+            "REE\\data\\data.json";
     protected static TimeSeries demSeries = new TimeSeries("Demanda");
     protected static TimeSeries dieSeries = new TimeSeries("Diésel");
     protected static TimeSeries gasSeries = new TimeSeries("Turbina de gas");
