@@ -102,22 +102,22 @@ la noche. También podemos visualizar todo de golpe
 
 ![](https://imgur.com/U22sSZq.png)
 
-Sin embargo, esto a veces no es muy recomendable, ya que algunas generaciones son
-muy bajas en comparación con otras (como por ejemplo, la curva de demanda total
+Sin embargo, esto a veces no es muy recomendable, ya que algunos valores son
+muy bajos en comparación con otros (como por ejemplo, la curva de demanda total
 frente a la generación con turbina de gas). 
 
-Vamos a elegir un rango de fechas anterior, en lugar ver la de un solo día. Si
+Vamos a elegir un rango de fechas anterior, en lugar de ver la de un solo día. Si
 hacemos _click_ en el campo de fecha que pone _Desde:_ o _Hasta:_, nos saldrá un 
 calendario contextual con el que podremos elegir la fecha.
 
 ![](https://imgur.com/uHi40gC.png)
 
 También podemos escribir directamente en este campo para elegir una fecha. El
-formato correcto es tipo "YYYY-MM-dd". Si cometemos un error y ponemos una fecha
-errónea, no se podrán visualizar datos en la gráfica. Veamos los datos de
-generación eólica y fotovoltaica desde el 21-12-2022 hasta el 23-12-2022.
-Si pulsamos en _Seleccionar_, la aplicación realizará varias llamadas a la API
-de Red Eléctrica España para las fechas seleccionadas.
+formato correcto es del tipo "YYYY-MM-dd". Si cometemos un error y ponemos una 
+fecha errónea, no se podrá visualizar la gráfica. Veamos los datos de generación 
+eólica y fotovoltaica desde el 21-12-2022 hasta el 23-12-2022. Si pulsamos en 
+_Seleccionar_, la aplicación realizará varias llamadas a la API de Red Eléctrica 
+España para las fechas seleccionadas.
 
 ![](https://imgur.com/ILuZhJo.png)
 
@@ -131,12 +131,11 @@ hacia abajo a la derecha)
 ![](https://imgur.com/QQDZEFP.png)
 
 Se observa que a la una de la tarde se produce un pico de generación de casi
-135 MW con la potencia fotovoltaica instalada en Canarias. La eólica se queda
-por debajo con un valor medio en torno a los 105 MW. Si hacemos _click_ derecho
-sobre la gráfica, podemos acceder a un menú que nos permite cambiar los títulos,
-colores de las series, fondo de la gráfica, copiar o guardar la gráfica en
-formato `png`, hacer _zoom_ o elegir una escala automática. Vamos a _resetear_ 
-los ejes.
+135 MW en Canarias. La eólica se queda por debajo con un valor medio en torno a 
+los 105 MW. Si hacemos _click_ derecho sobre la gráfica, podemos acceder a un 
+menú que nos permite cambiar los títulos, colores de las series, fondo de la 
+gráfica, copiar o guardar la gráfica en formato `png`, hacer _zoom_ o elegir 
+una escala automática. Vamos a _resetear_ los ejes.
 
 ![](https://imgur.com/7Q0lK0P.png)
 
