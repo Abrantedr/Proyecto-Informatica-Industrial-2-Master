@@ -74,10 +74,10 @@ se adjuntan en el repositorio:
 ### Mejoras que nunca implementaré
 
 - [ ] Posibilidad de ver una barra de progreso que indique las llamadas que
-faltan para llamar a la API de REE.
+faltan por realizar cuando se trata de una petición larga.
 - [ ] Refactorizar el programa debidamente, utilizando la estructura de la API
 actual.
-- [ ] Capacidad de detener el proceso para una llamada muy larga (tomar datos
+- [ ] Capacidad de detener el proceso para una llamada muy larga (tomar datos de
 un año entero).
 - [ ] Funcionalidad para exportar datos a excel o json.
 - [ ] Funcionalidad para cambiar la zona de demanda y generación.
@@ -89,7 +89,7 @@ el día de hoy.
 
 ![](https://imgur.com/iABKfeU.png)
 
-Por ejemplo, el día 25 de diciembre de 2022 tuvo un valle de unos 700 MW sobre 
+Por ejemplo, el día 25 de diciembre de 2022 tuvo un valle de unos 700 MW a 
 las 5 de la mañana. Podemos seleccionar las series temporales que queremos 
 visualizar al hacer _click_ en los botones.
 
