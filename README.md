@@ -123,7 +123,7 @@ España para las fechas seleccionadas.
 
 El título de la gráfica se ha actualizado para reflejar que estamos visualizando
 un rango de fechas. Ahora, hagamos _zoom_ en el pico máximo de generación 
-fotovoltaica del día 21 de diciembre (_click izquierdo o derecho en la gráfica, 
+fotovoltaica del día 21 de diciembre (_click_ izquierdo o derecho en la gráfica, 
 hacia abajo a la derecha)
 
 ![](https://imgur.com/Jpohz7d.png)
