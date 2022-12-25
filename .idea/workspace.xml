@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ea54e6-9fee-4dbf-837c-1aba67f2f324" name="Changes" comment="Typos.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d9ea54e6-9fee-4dbf-837c-1aba67f2f324" name="Changes" comment="Typos." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +122,7 @@
       <workItem from="1671964194862" duration="12029000" />
       <workItem from="1672005749533" duration="6080000" />
       <workItem from="1672012019945" duration="124000" />
-      <workItem from="1672012220362" duration="172000" />
+      <workItem from="1672012220362" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="First version of REE app.">
       <created>1671976199339</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672012134067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Typos.">
+      <created>1672012402519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672012402519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
