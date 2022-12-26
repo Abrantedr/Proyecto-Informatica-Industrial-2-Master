@@ -30,3 +30,7 @@ bin/
 
 ### App ###
 *.json
+
+### External docs ###
+*.pdf
+*.docx
